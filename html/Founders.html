@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="/Users/isakjohansson/Gymnasiearbete - Hesidan/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Product</a>
+                    <a href="Founders.html">Founders</a>
+                    <a href="FAQ.html">FAQ</a>
+                  </div>
+                  
+                  <div id="main">
+                    <button class="openbtn" onclick="openNav()">&#9776;</button> 
+                  </div>
+            <div class="logo">
+                <li><a href="index.html"><img src="../logo.png" alt="HPD" /></a></li>
+                </div>
+                <div class="sideinfo">
+                <li><a href="index.html">HPD</a></li>
+            </div>
+            </ul>
+        </div>
+        
+    </header>
+    <div class="headline">
+        <h1>Founders</h1>
+    </div>
+    <div class="homecontent">
+        <div class="main-content">
+            <h2>Daniel Goodwin - CEO</h2>
+            <div class="Daniel">
+                <img src="../daniel.jpeg" alt="Daniel Goodwin" />
+              </a>
+              </div>
+            <p>Greetings,
+                <br>
+                <br>
+                I'm Daniel Goodwin, the CEO of Hydro Power Dynamics. My journey in the renewable energy sector has been driven by a deep-rooted passion for sustainability and innovation. From the outset, my vision for HPD has been clear: to revolutionize the energy industry while preserving our planet's precious resources.
+                <br>
+                <br>
+                Growing up surrounded by nature, I developed a profound appreciation for the environment. This appreciation has fueled my determination to lead HPD towards a future where clean energy isn't just a choice but a necessity. With each project we undertake, my commitment to environmental stewardship guides our decisions, ensuring that we leave a positive impact on the world.
+                <br>
+                <br>
+                Together with Sarah and the entire HPD team, we're not just building a company; we're paving the way for a sustainable future—one powered by the limitless potential of water.
+                <br>
+                <br>
+                Warm regards,
+                <br>
+                Daniel Goodwin</p>
+                <h2>Sarah O'Connor - COO</h2>
+                <div class="Sarah">
+                    <img src="../sarah.jpeg" alt="Daniel Goodwin" />
+                  </a>
+                  </div>
+                <p>Hello,
+                    <br>
+                    <br>
+                    I'm Sarah O'Connor, the COO of Hydro Power Dynamics. My journey with HPD has been an exciting one, driven by a relentless pursuit of operational excellence and strategic growth. From the very beginning, I've been captivated by the potential of clean energy to transform lives and communities.
+                    <br>
+                    <br>
+                    With a background in project management, I've always believed in the power of collaboration and efficiency. At HPD, I work tirelessly to ensure that our operations run smoothly and our projects exceed expectations. Every decision we make is guided by a commitment to sustainability, ensuring that our impact on the environment is always positive.
+                    <br>
+                    <br>
+                    Together with Daniel and the entire HPD team, we're not just shaping the future of energy—we're creating a world where responsible innovation leads the way.
+                    <br>
+                    <br>
+                    Best regards,
+                    <br>
+                    Sarah O'Connor</p>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+            </script>
+</body>
+</html>

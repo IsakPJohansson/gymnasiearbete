@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="/Users/isakjohansson/Gymnasiearbete - Hesidan/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Product</a>
+                    <a href="Founders.html">Founders</a>
+                    <a href="FAQ.html">FAQ</a>
+                  </div>
+                  
+                  <div id="main">
+                    <button class="openbtn" onclick="openNav()">&#9776;</button> 
+                  </div>
+            <div class="logo">
+                <li><a href="index.html"><img src="../logo.png" alt="HPD" /></a></li>
+                </div>
+                <div class="sideinfo">
+                <li><a href="index.html">HPD</a></li>
+            </div>
+            </ul>
+        </div>
+        
+    </header>
+  
+    <div class="headline">
+        <h1>Welcome to Hydro Power Dynamics</h1>
+
+    </div>
+    <div class="homecontent">
+        <div class="main-content">
+            <h2>Empowering Tomorrow, Sustainably</h2>
+            <p>Welcome to Hydro Power Dynamics (HPD) - a global leader in sustainable energy solutions. At HPD, we are committed to harnessing the power of water to create a cleaner and brighter future. Explore our innovative initiatives and cutting-edge technologies that drive progress while maintaining environmental responsibility.</p>
+        </div>
+    </div>
+    <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+    </script>
+</body>
+</html>
