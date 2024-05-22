@@ -1,153 +1,177 @@
 /* Global styles */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #389cb0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #389cb0;
 }
 
 /* Container */
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-between;
 }
 
-a:link {
-    color: white;
-    text-decoration: none;
+/* Links */
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  text-decoration: none;
 }
 
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: white;
-}
-
-a:active {
-    color: white;
-}
-
-
+/* Home content */
 .homecontent {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Index */
+.underline {
+  text-decoration: underline;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  float: none;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Header */
 header {
-    background-color: #297280;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
+  background-color: #297280;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
 }
 
 /* Main Content */
 .main-content {
-    padding: 20px;
-    background-color: #EEE8DD;
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
+  padding: 20px;
+  background-color: #EEE8DD;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.main-content {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* Navigation */
+div.nav {
+  height: 50px;
+  background-color: #297280;
+  display: flex;
+  padding: 1% 0;
+  margin-bottom: 10px;
 }
 
-div[class="nav"] {
-    height: 50px;
-    background-color: #297280;
-    display: flex;
-    padding: 1% 0;
-    margin-bottom: 10px;
-  }
-  
-  div[class="nav"] ul {
-    padding: 0;
-    list-style-type: none;
-    flex: 2;
-    display: flex;
-  }
-  
-  div[class="nav"] li {
-    display: flex;
-    justify-content: center;
-    flex: 3;
-  }
-  
-  div[class="nav"] a {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-  }
-  
-  div[class="nav"] .search {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    padding: 2em;
-  }
+div.nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
 
-  .logo img {
-    width: 120px;
-    height: 120px;
-    margin-top: -45px;
-  }
-/* faq */
-  .faq {
-    padding: 20px;
-    background-color: #EEE8DD;
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
-  }
+div.nav li {
+  display: flex;
+  justify-content: start;
+}
 
-  .faqtext {
-    font-size: 50px;
-    text-align: center;
-    color: antiquewhite;
-  }
-/* product */
+div.nav a {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+div.nav .search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 2em;
+}
+
+.logo img {
+  width: 120px;
+  height: 120px;
+  margin-top: -45px;
+}
+
+/* FAQ */
+.faq {
+  padding: 20px;
+  background-color: #EEE8DD;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.faqtext {
+  font-size: 50px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+/* Product */
 .headline {
   font-size: 30px;
   text-align: center;
   color: antiquewhite;
 }
 
-/* test */
+.headline1 {
+  font-size: 25px;
+  text-align: center;
+  color: antiquewhite;
+}
 
-/* The sidebar menu */
+.info {
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  max-width: 1100px;
+  float: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.smalldiv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  color: black;
+  max-width: 800px;
+  float: none;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Menu */
 .sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #297280; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 1.5s; /* 0.5 second transition effect to slide in the sidebar */
+  background-color: #297280;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 1.5s;
   border-right-style: solid;
   border-color: #389cb0;
 }
 
-/* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: underline;
@@ -157,12 +181,10 @@ div[class="nav"] {
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #9bedff;
 }
 
-/* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
   top: 0;
@@ -171,7 +193,6 @@ div[class="nav"] {
   margin-left: 50px;
 }
 
-/* The button used to open the sidebar */
 .openbtn {
   font-size: 70px;
   cursor: pointer;
@@ -186,15 +207,16 @@ div[class="nav"] {
   background-color: #389cb0;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left 1.5s; /* If you want a transition effect */
+  transition: margin-left 1.5s;
   padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+      padding-top: 15px;
+  }
+  .sidebar a {
+      font-size: 18px;
+  }
 }
-
