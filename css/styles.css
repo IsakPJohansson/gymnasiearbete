@@ -226,18 +226,21 @@ div.nav .search {
 /* Media query för normala telefoner */
 @media only screen and (max-width: 600px) {
   /* Anpassning för normala telefonstorlekar */
-  .container {
-      font-size: 30px; /* Justera fontstorlek för mindre skärmar */
+  .nav ul {
+      display: none; /* Dölj huvudmenyn för mobila enheter */
   }
-  img {
-      width: 300px; /* Justera storlek på bilder för mindre skärmar */
+  .nav .openbtn {
+      display: block; /* Visa knappen för att öppna drop-down menyn */
   }
-  .logo img {
-      width: 80px; /* Justera logons storlek för mindre skärmar */
-      margin-top: -30px; /* Justera logons position för mindre skärmar */
+  .nav .logo, .nav .sideinfo {
+      display: none; /* Dölj logotypen och sidinformation för mobila enheter */
   }
-  .nav a {
-      font-size: 1.5rem; /* Justera länkstorlek för mindre skärmar */
+  .nav .sidebar a {
+      display: block; /* Visa länkarna i drop-down menyn */
+      font-size: 1.5rem; /* Justera textstorleken för mobila enheter */
+      padding: 10px; /* Justera padding för länkar i drop-down menyn */
+      text-align: center; /* Centrera texten i länkarna */
+      color: white; /* Behåll färgen på länkarna */
   }
 }
 
