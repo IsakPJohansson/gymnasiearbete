@@ -220,3 +220,41 @@ div.nav .search {
       font-size: 18px;
   }
 }
+
+/* Övriga CSS-stilar */
+
+/* Media query för normala telefoner */
+@media only screen and (max-width: 600px) {
+  /* Anpassning för normala telefonstorlekar */
+  .container {
+      font-size: 30px; /* Justera fontstorlek för mindre skärmar */
+  }
+  img {
+      width: 300px; /* Justera storlek på bilder för mindre skärmar */
+  }
+  .logo img {
+      width: 80px; /* Justera logons storlek för mindre skärmar */
+      margin-top: -30px; /* Justera logons position för mindre skärmar */
+  }
+  .nav a {
+      font-size: 1.5rem; /* Justera länkstorlek för mindre skärmar */
+  }
+}
+
+/* Media query för surfplattor */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Anpassning för surfplattor */
+  .container {
+      font-size: 40px; /* Justera fontstorlek för surfplattor */
+  }
+  img {
+      width: 350px; /* Justera storlek på bilder för surfplattor */
+  }
+  .logo img {
+      width: 100px; /* Justera logons storlek för surfplattor */
+      margin-top: -40px; /* Justera logons position för surfplattor */
+  }
+  .nav a {
+      font-size: 2rem; /* Justera länkstorlek för surfplattor */
+  }
+}
